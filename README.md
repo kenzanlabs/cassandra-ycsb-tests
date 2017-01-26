@@ -26,7 +26,7 @@ git clone https://github.com/dbathgate/cassandra-ycsb-tests.git
 ./bin/ycsb load cassandra-cql -threads 250 -p hosts="10.25.1.49" -p cassandra.readconsistencylevel=QUORUM -p cassandra.writeconsistencylevel=QUORUM -P cassandra-ycsb-tests/csload1
 ```
 
-## Testing 250, 500, and 100 Threads
+## Testing 250, 500, and 1000 Threads
 ```
 ./bin/ycsb run cassandra-cql -threads 250 -p hosts="10.25.1.49" -p cassandra.readconsistencylevel=QUORUM -p cassandra.writeconsistencylevel=QUORUM -P cassandra-ycsb-tests/csload1
 ./bin/ycsb run cassandra-cql -threads 500 -p hosts="10.25.1.49" -p cassandra.readconsistencylevel=QUORUM -p cassandra.writeconsistencylevel=QUORUM -P cassandra-ycsb-tests/csload1
