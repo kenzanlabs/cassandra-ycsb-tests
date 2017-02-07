@@ -8,11 +8,12 @@
 * **csload5** - 50/50% Read/Write
 * **csload-disk-stres-10G** - Loads 10GB of data and reads all
 * **csload-disk-stres-25G** - Loads 25GB of data and reads all
+* **csload-disk-stres-250G** - Loads 250GB of data and reads all
 
 ## Calculating Size of Data
 * 1 million records equal 1 GB of data
 * Data size multiplied by `fieldlength` property
-* 10 million records with `fieldlenght=250` equals 25GB of data
+* 10 million records with `fieldlength=250` equals 25GB of data
 
 ## Setup
 ```
