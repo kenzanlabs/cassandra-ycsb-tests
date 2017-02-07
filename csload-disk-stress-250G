@@ -1,4 +1,4 @@
-# Casandra Load Test: Push disk to the limits with 25GB of data
+# Casandra Load Test: Push disk to the limits with 250GB of data
 #
 #   Read/update ratio: 100/0
 #   Data field size: 2KB per record
