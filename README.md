@@ -6,9 +6,9 @@
 * **csload3** - 80/20% Read/Write
 * **csload4** - 20/80% Read/Write
 * **csload5** - 50/50% Read/Write
-* **csload-disk-stres-10G** - Loads 10GB of data and reads all
-* **csload-disk-stres-25G** - Loads 25GB of data and reads all
-* **csload-disk-stres-250G** - Loads 250GB of data and reads all
+* **csload-disk-stress-10G** - Loads 10GB of data and reads all
+* **csload-disk-stress-25G** - Loads 25GB of data and reads all
+* **csload-disk-stress-250G** - Loads 250GB of data and reads all
 
 ## Calculating Size of Data
 * 1 million records equal 1 GB of data
