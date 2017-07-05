@@ -35,7 +35,7 @@ git clone https://github.com/kenzanlabs/cassandra-ycsb-tests.git
 ```
 
  ## LICENSE
-Copyright 2015 Kenzan, LLC <http://kenzan.com>
+Copyright 2017 Kenzan, LLC <http://kenzan.com>
  
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
