@@ -1,0 +1,20 @@
+# Casandra Load Test: Push disk to the limits with 25GB of data
+#
+#   Read/update ratio: 100/0
+#   Data field size: 2.5KB per record
+
+recordcount=32000000
+operationcount=32000000
+workload=com.yahoo.ycsb.workloads.CoreWorkload
+
+readallfields=true
+writeallfields=true
+
+fieldlength=200
+
+readproportion=0.8
+updateproportion=0.2
+scanproportion=0
+insertproportion=0
+
+requestdistribution=zipfian
